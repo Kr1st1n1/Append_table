@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>append-table</title>
+  </head>
+  <body class="container">
+
+    <h1>Append table</h1>
+
+    <!-- start of data-log -->
+
+    <div class="data-log info">
+      <div class="container">
+        <div class="info-block">
+          <input id="name" type="text" placeholder="vardas">
+          <button  id="button1">Pridėti</button>
+        </div>
+        <div class="info-block ">
+          <input id="lname" type="text" placeholder="pavardė">
+          <button id="button2">Ištrinti pirmą</button>
+        </div>
+        <div class="info-block ">
+          <input id="age" type="text" placeholder="amžius">
+          <button  id="button3">Ištrinti paskutinį</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- start of data-log -->
+
+    <!-- Start of table -->
+
+    <div class="data-output">
+      <table id="table" class="container">
+        <thead>
+          <tr>
+            <th>VARDAS</th>
+            <th>PAVARDĖ</th>
+            <th>AMŽIUS</th>
+          </tr>
+        </thead>
+        <tbody id="table-info">
+          <tr>
+            <td>Jonas</td>
+            <td>Rimkus</td>
+            <td>54</td>
+          </tr>
+          <tr>
+            <td>Vestina</td>
+            <td>Petronytė</td>
+            <td>31</td>
+          </tr>
+          <tr>
+            <td>Marius</td>
+            <td>Dulinskas</td>
+            <td>23</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- End of table -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
